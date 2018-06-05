@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splitline_height">0.5dp</dimen>
+    <dimen name="dialog_button_textsize">13sp</dimen>
+    <dimen name="dialog_title_textsize">16sp</dimen>
+    <dimen name="dialog_message_textsize">15sp</dimen>
+    <dimen name="dialog_message_nopromp_textsize">12sp</dimen>
+    <dimen name="title_height">48dp</dimen>
+</resources>

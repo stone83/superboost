@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:background="@color/title_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    app:layout_heightPercent="7.5%sh">
+
+    <!--<View
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:layout_marginBottomPercent="2.3%sh"
+        app:layout_marginLeftPercent="5.6%sw" />-->
+
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:id="@+id/back_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_marginLeftPercent="5.6%sw">
+        <!--android:layout_below="@+id/status_bar"-->
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/title_back"
+            app:layout_heightPercent="2.5%sh"
+            app:layout_maxHeightPercent="2.5%sh"
+            app:layout_maxWidthPercent="2.5%sw"
+            app:layout_widthPercent="2.5%sw" />
+    </com.zhy.android.percent.support.PercentFrameLayout>
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/back_btn_layout"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_marginLeftPercent="4.2%sw" />-->
+    <!--android:layout_below="@+id/status_bar"-->
+    <!--android:drawablePadding="16dp"-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_textSizePercent="2.8%sh"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal|bold"/>
+
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:id="@+id/setting_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        app:layout_marginLeftPercent="5.6%sw"
+        app:layout_marginRightPercent="5.6%sw">
+        <!--android:layout_below="@+id/status_bar"-->
+
+        <ImageView
+            android:id="@+id/title_setting"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            app:layout_heightPercent="3.1%sh"
+            app:layout_maxHeightPercent="3.1%sh"
+            app:layout_maxWidthPercent="5.6%sw"
+            app:layout_widthPercent="5.6%sw" />
+    </com.zhy.android.percent.support.PercentFrameLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

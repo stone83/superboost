@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Boost</string>
+    <string name="calculate">RAM released%1$s</string>
+    <string name="running">Running（%1$d）</string>
+    <string name="imm_acceler">BOOST（%1$s）</string>
+    <string name="none_app_finish">RAM：%1$s/%2$s</string>
+    <string name="accelerate_over">Boost Complete</string>
+    <string name="phone_smooth">Your phone is running smoothly</string>
+    <string name="can_clear">Cleared</string>
+    <string name="running_count">Running Apps</string>
+    <string name="running_assistant">Open Accessibility service to let App auto boost your phone</string>
+    <string name="accelerate_hand">Manual Boost</string>
+    <string name="accelerate_auto">Enable</string>
+    <!-- new add -->
+    <string name="default_negative_btn_label">Cancel</string>
+    <string name="default_positive_btn_label">Confirm</string>
+    <string name="dialog_no_promp">Do not show again</string>
+    <string name="accelerate_speed_up">★Super Boost★</string>
+    <string name="description">Open Accessibility service to let App auto boost your phone.\n\n tips:When you open Accessibility service android will ask for confirm.App will definitely would not to compromised  the interest of users,you can just open it relieved.</string>
+</resources>

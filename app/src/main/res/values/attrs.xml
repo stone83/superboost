@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <!-- The source view to delegate touch presses events to. -->
+        <attr name="titleTx" format="string" />
+        <attr name="titleSize" format="integer" />
+        <attr name="backDrawable" format="reference" />
+    </declare-styleable>
+</resources>

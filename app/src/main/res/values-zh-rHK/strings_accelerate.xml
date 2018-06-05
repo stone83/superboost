@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accelerate_force_stop">Force stop</string>
+    <string name="accelerate_finish_run">结束运行</string>
+    <string name="accelerate_mandatory_stop">强制停止</string>
+    <string name="accelerate_ensure">OK</string>
+</resources>

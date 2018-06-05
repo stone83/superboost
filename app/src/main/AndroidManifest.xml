@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boost.booster.clean">
+    <original-package android:name="com.accelerate" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <application
+        android:name="com.accelerate.AccelerateApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- Caution! Do not change this app key. It is only for demo usage. -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="591d4da7c8957677d9000f94"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}"></meta-data>
+        <activity
+            android:name="com.accelerate.activity.ProgressbarActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/custom_progressbar_activity" />
+        <activity
+            android:name="com.accelerate.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/SplashAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.accelerate.activity.AccelerateMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.start"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.accelerate.activity.NoneClearActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.finish" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.accelerate.activity.CalculateFinishActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.calculate" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.accelerate.service.AccelerateService" />
+
+        <!-- 辅助功能 -->
+        <service
+            android:name="com.accelerate.accessibility.services.AccelerateAccessibilityService"
+            android:label="@string/accelerate_speed_up"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/service_config" />
+        </service>
+        <service
+            android:name="com.accelerate.accessibility.notifycation.AccelerateNotificationService"
+            android:label="@string/accelerate_speed_up"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Boost</string>
+    <string name="calculate">釋放%1$s內存</string>
+    <string name="running">正在運行（%1$d個）</string>
+    <string name="imm_acceler">立即加速（%1$s）</string>
+    <string name="none_app_finish">內存：%1$s/%2$s</string>
+    <string name="accelerate_over">加速完成</string>
+    <string name="phone_smooth">手機很流暢</string>
+    <string name="can_clear">可清理</string>
+    <string name="running_count">正在運行</string>
+    <string name="running_assistant">開啟輔助功能自動完成加速</string>
+    <string name="accelerate_hand">手動加速</string>
+    <string name="accelerate_auto">前往設置</string>
+    <!-- new add -->
+    <string name="default_negative_btn_label">取消</string>
+    <string name="default_positive_btn_label">確定</string>
+    <string name="dialog_no_promp">不再提示</string>
+    <string name="accelerate_speed_up">★Super Boost★</string>
+    <string name="description">打開輔助服務是使用Super Boost產品完整功能所需，會幫助用戶自動完成手機加速。\n\n提示：打開輔助功能時，會受到系統例行的警告提醒，Super Boost不會進行侵害用戶利益的行為，您可放心開啟。</string>
+</resources>

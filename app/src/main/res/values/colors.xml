@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="all_background">#5ba5e8</color>
+    <color name="all_background_press">#4f92ce</color>
+    <color name="text_white">#ffffff</color>
+    <color name="touming_white">#00ffffff</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_hoary">#ddecea</color>
+    <color name="text_black">#333333</color>
+    <color name="text_red">#e51c1c</color>
+    <color name="text_common">#009688</color>
+    <color name="text_yellow">#ffC107</color>
+    <color name="disable_bg">#666666</color>
+    <color name="ripple_common_bg">#8800695f</color>
+    <color name="score_dialog_divider">#ffc143</color>
+
+    <color name="background_tab_pressed">#ffffff</color>
+    <!-- 紫色 -->
+    <color name="purple">#9A9AFF</color>
+    <!-- 分割线 -->
+    <color name="divider">#DCDCDC</color>
+    <color name="divder2">#EDEDED</color>
+    <color name="title_bg">#5ba5e8</color>
+
+    <color name="white">#ffffff</color>
+
+    <!--省电-->
+    <color name="quick_power_message_color">#33aba0</color>
+
+    <!--流量监控-->
+    <color name="common_btn_close_color">#666666</color>
+    <color name="common_btn_open_color">#009688</color>
+
+    <color name="traffic_defend_title_color">#009688</color>
+
+    <color name="app_traffic_summary_color">#999999</color>
+    <color name="app_traffic_wifi_summary_color">#ffC107</color>
+    <color name="app_traffic_mobile_summary_color">#009688</color>
+
+    <color name="button_selected">#f4f4f4</color>
+
+    <color name="title_text">#269e92</color>
+    <color name="main_backgrond">#009688</color>
+    <color name="line_backgrond">#dcdcdc</color>
+
+    <color name="barchart_wifi_bar_color">#ffc107</color>
+    <color name="barchart_mobile_bar_color">#009688</color>
+    <color name="barchart_xaxis_line_color">#999999</color>
+    <color name="barchart_xaxis_hight_color">#009688</color>
+    <color name="default_bg_color">#f0f0f0</color>
+    <color name="wheel_view_background">#4c999999</color>
+    <color name="default_fg_color">#f8f8f8</color>
+
+    <color name="power_bg">#F0F0F0</color>
+    <color name="menu_back_color">#35D662</color>
+    <color name="menu_back_color_hovor">#36C546</color>
+    <color name="power_divider">#D2D2D2</color>
+    <color name="power_setting_close">#666666</color>
+
+    <color name="used_traffic_color">#00ffff</color>
+
+    <color name="link_color">#64FFDA</color>
+
+    <color name="dialog_button_pressed">#12000000</color>
+    <color name="dialog_button_normal">#00ffffff</color>
+
+    <color name="process_lock">#22a0a0a0</color>
+    <color name="shadow">#99000000</color>
+
+    <color name="wheel_color_edge">#9a9a9a</color>
+    <color name="wheel_color_unselected">#6e6e6e</color>
+    <color name="wheel_color_selected">#009688</color>
+    <color name="wheel_color_diverline">#009688</color>
+
+    <color name="horizontal_progressbar_background">#35bbae</color>
+
+    <color name="black">#000000</color>
+
+</resources>
+

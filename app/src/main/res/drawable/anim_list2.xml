@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/noneclean1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean14"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean15"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean16"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean17"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean18"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean19"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean20"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/noneclean21"
+        android:duration="100" />
+</animation-list>

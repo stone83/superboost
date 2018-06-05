@@ -1,0 +1,92 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimTheme</item>
+        <item name="colorPrimary">@color/all_background</item>
+        <item name="android:statusBarColor">@color/all_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppBaseTheme_NoTitleBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimTheme</item>
+        <item name="colorPrimary">@color/all_background</item>
+        <item name="android:statusBarColor">@color/all_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme_NoTitleBar" />
+    <style name="AppTheme_TitleBar" parent="AppBaseTheme" />
+    <style name="SplashAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="custom_progressbar_activity" parent="AppTheme">
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="custom_permissions_activity" parent="custom_progressbar_activity">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="custom_alter_dialog_style" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="colorAccent">@color/all_background</item>
+        <item name="android:textSize">14dip</item>
+      <!--  <item name="android:width">310dip</item> -->
+    </style>
+
+    <style name="cache_clean_button" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:borderlessButtonStyle">@color/transparent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">45dp</item>
+        <item name="android:background">@drawable/common_button_selector</item>
+        <item name="android:textColor">@drawable/common_button_tv_color_selector</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="custom_horizontal_progressbar" parent="Base.Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/horizontal_progress_bar</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="custom_checkbox_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:focusable">false</item>
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+    <style name="custom_checkbox_style_all" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:focusable">false</item>
+        <item name="android:button">@drawable/checkbox_style_all</item>
+    </style>
+    <style name="ActivityAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenExitAnimation">@anim/out_from_left</item>
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_right</item>
+    </style>
+
+    <style name="dialog_fullscreen_style">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

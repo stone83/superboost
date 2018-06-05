@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip">
+    <ImageView
+    android:id="@+id/img"
+    android:layout_width="45dip"
+    android:layout_height="45dip"
+    android:layout_weight="0"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="20dip"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_weight="0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dip"
+        android:textColor="#999999"
+        android:gravity="right"
+        />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="0"
+        android:layout_gravity="center_vertical"
+        style="@style/custom_checkbox_style"/>
+</LinearLayout>

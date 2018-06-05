@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog_round_rect_bg"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/dialog_title_textsize"
+            android:textStyle="bold"
+            app:layout_marginBottomPercent="2.3%sh"
+            app:layout_marginTopPercent="2.3%sh" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/common_message_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_marginBottomPercent="2.3%sh"
+            app:layout_marginLeftPercent="5.6%sw"
+            app:layout_marginRightPercent="5.6%sw">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/dialog_message_textsize" />
+
+            <CheckBox
+                android:id="@+id/no_promp_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:button="@drawable/checkbox_selector"
+                android:paddingLeft="5dp"
+                android:text="@string/dialog_no_promp"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/dialog_message_nopromp_textsize"
+                android:visibility="gone"
+                app:layout_marginTopPercent="2.3%sh" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentFrameLayout>
+
+    <View
+        android:id="@+id/hori_seprator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/splitline_height"
+        android:background="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_negative_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_negative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_button_bg"
+                android:text="@string/default_negative_btn_label"
+                android:textColor="@color/text_common"
+                android:textSize="@dimen/dialog_button_textsize" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/seprator"
+            android:layout_width="@dimen/splitline_height"
+            android:layout_height="match_parent"
+            android:background="@color/divider">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/btn_positive_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_positive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_button_bg"
+                android:text="@string/default_positive_btn_label"
+                android:textColor="@color/text_common"
+                android:textSize="@dimen/dialog_button_textsize" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>
